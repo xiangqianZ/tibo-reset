@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="260" viewBox="0 0 460 260" fill="none">
+  <defs>
+    <linearGradient id="ring" x1="181" y1="42" x2="313" y2="222" gradientUnits="userSpaceOnUse"><stop stop-color="#FFA474"/><stop offset=".5" stop-color="#F47A43"/><stop offset="1" stop-color="#D95427"/></linearGradient>
+    <linearGradient id="paper" x1="65" y1="91" x2="184" y2="174" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFEFB"/><stop offset="1" stop-color="#FFF5E8"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#9D653F" flood-opacity=".12"/></filter>
+    <filter id="soft" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <ellipse cx="255" cy="229" rx="88" ry="8" fill="#B6835D" opacity=".12" filter="url(#soft)"/>
+  <ellipse cx="246" cy="135" rx="168" ry="78" transform="rotate(-18 246 135)" stroke="#DDD2BF" stroke-dasharray="3 7"/>
+  <circle cx="250" cy="126" r="87" fill="#F5E5CF"/>
+  <circle cx="250" cy="126" r="75" fill="#FFF4E2"/>
+  <g filter="url(#shadow)">
+    <path d="M306 81A72 72 0 0 0 180 113" stroke="url(#ring)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M164 92L180 123L207 101" fill="#F98D55" stroke="#F98D55" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M193 170A72 72 0 0 0 319 137" stroke="url(#ring)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M334 158L319 127L291 148" fill="#E96734" stroke="#E96734" stroke-width="9" stroke-linejoin="round"/>
+  </g>
+  <text x="250" y="138" text-anchor="middle" fill="#A16C45" font-family="Arial,sans-serif" font-size="29" font-weight="700" letter-spacing="-1">28</text>
+  <text x="250" y="154" text-anchor="middle" fill="#B48663" font-family="Arial,sans-serif" font-size="7" font-weight="700" letter-spacing="3">NEW DAYS</text>
+  <g transform="rotate(-11 118 149)" filter="url(#shadow)">
+    <rect x="55" y="114" width="126" height="72" rx="12" fill="url(#paper)" stroke="#F3E7D6"/>
+    <rect x="67" y="127" width="28" height="28" rx="8" fill="#F2EBFA"/>
+    <path d="M74 136h14v4a3 3 0 0 0 0 6v3H74v-3a3 3 0 0 0 0-6v-4Z" stroke="#A385C3" stroke-width="1.7" stroke-linejoin="round"/>
+    <text x="104" y="139" fill="#806A5A" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1">RESET</text>
+    <text x="104" y="152" fill="#A99A8C" font-family="Arial,sans-serif" font-size="8" letter-spacing="2">YOUR DAY</text>
+    <path d="M68 170h74" stroke="#DFD6CB" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="165" cy="169" r="3" fill="#EEDFC9"/>
+  </g>
+  <g transform="rotate(8 358 72)" filter="url(#shadow)">
+    <rect x="322" y="45" width="78" height="53" rx="14" fill="#FFFEF9" stroke="#F0E9DF"/>
+    <path d="m343 73 7 7 16-18" stroke="#809977" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="383" cy="61" r="3" fill="#E7EDDF"/>
+    <path d="M375 78h11" stroke="#DBE2D1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="m145 45 3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9Z" fill="#F39A65"/>
+  <path d="m367 174 3 10 10 3-10 3-3 10-3-10-10-3 10-3 3-10Z" fill="#C3CAA8"/>
+  <circle cx="119" cy="93" r="3" fill="#C8B69D"/>
+  <circle cx="315" cy="29" r="3" fill="#EFBF96"/>
+  <circle cx="339" cy="222" r="4" fill="#E6C6A3"/>
+</svg>
